@@ -13,8 +13,8 @@ public class question2 {
 
         int toplam=sayi1+sayi2;
 
-        System.out.print("Girilen sayilarin toplami: " + toplam);
+        System.out.print("Girilen sayilarin toplami:" + toplam);
 
-
+        scanner.close();
     }
 }
