@@ -8,4 +8,4 @@ sonuc=1
 for i in range(0,derece):
     sonuc*=sayi
 
-print("Sonuc:" + str(sonuc))
+print("Sonuc: " + str(sonuc))

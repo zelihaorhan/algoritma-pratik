@@ -16,7 +16,8 @@ public class question22 {
             sonuc*=sayi;
         }
 
-        System.out.println("Sonuc:" + sonuc);
+        System.out.println("Sonuc: " + sonuc);
 
+        scanner.close();
     }
 }
