@@ -6,21 +6,21 @@ public class question27 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ondalik bir sayi giriniz:");
-        int ondalik=scanner.nextInt();
+        int onluk=scanner.nextInt();
 
-        String ikiliSayi=decimalToBinary(ondalik);
+        String ikiliSayi=decimalToBinary(onluk);
 
         System.out.println("İkilik (binary) sayi:" + ikiliSayi);
 
         scanner.close();
     }
 
-    public static String decimalToBinary(int ondalik){
+    public static String decimalToBinary(int onluk){
         StringBuilder binary=new StringBuilder();
-        while(ondalik>0){
-            int kalan = ondalik%2;
-            binary.insert(0, kalan);
-            ondalik/=2;
+        while(onluk>0){
+            int kalan = onluk%2;
+            binary.insert(0, kalan); //eklenen biti başa ekleyin
+            onluk/=2;
         }
         return binary.toString();
     }
